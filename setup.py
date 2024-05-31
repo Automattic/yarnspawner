@@ -28,5 +28,5 @@ setup(name='jupyterhub-yarnspawner',
       python_requires='>=3.5',
       install_requires=[
           'jupyterhub>=4.0.0',
-          'skein @ git+https://github.com/Automattic/skein.git@fix-skein-mac'
+          'skein @ git+https://github.com/Automattic/skein.git@fix-skein-mac#egg=skein'
       ])
